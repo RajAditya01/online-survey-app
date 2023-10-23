@@ -2,7 +2,10 @@
     font-size: 1.4em;
     color: #cecece;
 }
-
+.paragraph{
+    font-size: 1.4em;
+    color: #cecece;
+}
 .start{
     display: flex;
     justify-content: center;
