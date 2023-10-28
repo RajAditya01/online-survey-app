@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 
-/** Custom Hook */
+/* Custom Hook */
 import { useFetchQestion } from '../hooks/FetchQuestion'
 import { updateResult } from '../hooks/setResult'
 
@@ -31,7 +31,7 @@ export default function Questions({ onChecked }) {
     if(isLoading) return <h3 className='text-light'>isLoading</h3>
     if(serverError) return <h3 className='text-light'>{serverError || "Unknown Error"}</h3>
 
-  return (
+    return (
     <div className='questions'>
         <h2 className='text-light'>{questions?.question}</h2>
 
@@ -54,5 +54,5 @@ export default function Questions({ onChecked }) {
             }
         </ul>
     </div>
-  )
+    )
 }
