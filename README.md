@@ -31,4 +31,3 @@ Authentication: JWT for user authentication.
 State Management: Redux or React Context API.
 Frontend Framework: Material-UI or Bootstrap for a polished interface.
 Validation: Implemented for user input and survey participation.
-
